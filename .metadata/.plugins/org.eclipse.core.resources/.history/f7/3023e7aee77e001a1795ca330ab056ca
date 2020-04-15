@@ -1,0 +1,7 @@
+package _01
+
+class First {
+	fun main(args:Array<String>){
+		
+	}
+}

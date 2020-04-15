@@ -1,0 +1,10 @@
+package _02
+
+class Person (
+	val name : String,
+	var isMarried : Boolean
+)
+fun main(args:Array<String>){
+	val person = Person("Bob",false)
+	println("${person.name}")
+}

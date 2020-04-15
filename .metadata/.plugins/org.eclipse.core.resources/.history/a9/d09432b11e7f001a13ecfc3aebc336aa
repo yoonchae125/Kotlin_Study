@@ -1,0 +1,6 @@
+package _02
+import _02.Main.Color.*
+class Person (
+	var name : String,
+	var isMarried : Boolean
+)

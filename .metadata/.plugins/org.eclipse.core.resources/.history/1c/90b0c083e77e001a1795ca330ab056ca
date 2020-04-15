@@ -1,0 +1,4 @@
+package _01
+
+data class Person {
+}

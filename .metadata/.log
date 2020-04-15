@@ -1,0 +1,504 @@
+!SESSION 2020-04-15 16:02:34.371 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-15 16:02:43.129
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com|127.0.0.1:21300|*.127.0.0.1:21300 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-04-15 16:02:43.866
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-15 16:02:43.866
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7882379b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@119cd026,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:03:58.732
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:04:33.425
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:05:22.794
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:05:38.942
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:05:40.677
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:06:00.912
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:06:05.352
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:06:14.650
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:06:37.944
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:06:53.093
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:06:55.502
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:09:10.169
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 16:09:40.904
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-04-15 18:44:00.183
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 18:51:12.479
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 18:51:38.502
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 18:57:43.099
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 18:57:55.827
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 18:58:01.559
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:13:16.513
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:13:44.799
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.849
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.850
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.850
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.851
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.851
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.851
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.851
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.852
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.852
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:18.852
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:23.663
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:14:27.228
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:30:23.849
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:30:34.691
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:31:02.336
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:31:17.427
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:31:27.480
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:31:33.925
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:32:09.919
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:32:37.535
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:33:04.625
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:34:02.870
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:34:12.310
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:34:20.734
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:34:30.566
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 19:34:30.567
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 20:06:51.871
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 20:07:02.457
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 20:07:14.999
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 20:07:44.987
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 20:08:41.997
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 20:09:27.848
+!MESSAGE Could not check for update (Could not obtain update site)
+!SESSION 2020-04-15 20:12:49.804 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/Users/chaeyoon/Documents/GitHub/Kotlin_Study/ -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-15 20:12:54.851
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com|127.0.0.1:21300|*.127.0.0.1:21300 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-04-15 20:12:57.965
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-15 20:12:57.965
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@283240b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ec78008,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jetbrains.kotlin.ui 4 2 2020-04-15 20:13:14.248
+!MESSAGE Problems occurred when invoking code from plug-in: "org.jetbrains.kotlin.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.search2.internal.ui.InternalSearchUI.addQueryListener(InternalSearchUI.java:292)
+	at org.eclipse.search.ui.NewSearchUI.addQueryListener(NewSearchUI.java:204)
+	at org.eclipse.search.internal.ui.text.SearchResultUpdater.<init>(SearchResultUpdater.java:37)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.getSearchResult(FileSearchQuery.java:357)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.run(FileSearchQuery.java:252)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.searchTextOccurrences(KotlinQueryParticipant.kt:208)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.access$searchTextOccurrences(KotlinQueryParticipant.kt:81)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant$search$1.run(KotlinQueryParticipant.kt:102)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.search(KotlinQueryParticipant.kt:83)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.runCompositeSearch(KotlinQueryParticipant.kt:150)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.access$runCompositeSearch(KotlinQueryParticipant.kt:81)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant$search$1.run(KotlinQueryParticipant.kt:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.search(KotlinQueryParticipant.kt:83)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences.findOccurrences(KotlinMarkOccurrences.kt:94)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences.access$findOccurrences(KotlinMarkOccurrences.kt:48)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences$selectionChanged$1.invoke(KotlinMarkOccurrences.kt:71)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences$selectionChanged$1.invoke(KotlinMarkOccurrences.kt:48)
+	at org.jetbrains.kotlin.core.model.KotlinModelUtilsKt$runJob$job$1.run(kotlinModelUtils.kt:89)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jetbrains.kotlin.core 4 0 2020-04-15 20:13:14.252
+!MESSAGE Unexpected Exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.search2.internal.ui.InternalSearchUI.addQueryListener(InternalSearchUI.java:292)
+	at org.eclipse.search.ui.NewSearchUI.addQueryListener(NewSearchUI.java:204)
+	at org.eclipse.search.internal.ui.text.SearchResultUpdater.<init>(SearchResultUpdater.java:37)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.getSearchResult(FileSearchQuery.java:357)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.run(FileSearchQuery.java:252)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.searchTextOccurrences(KotlinQueryParticipant.kt:208)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.access$searchTextOccurrences(KotlinQueryParticipant.kt:81)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant$search$1.run(KotlinQueryParticipant.kt:102)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.search(KotlinQueryParticipant.kt:83)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.runCompositeSearch(KotlinQueryParticipant.kt:150)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.access$runCompositeSearch(KotlinQueryParticipant.kt:81)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant$search$1.run(KotlinQueryParticipant.kt:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.search(KotlinQueryParticipant.kt:83)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences.findOccurrences(KotlinMarkOccurrences.kt:94)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences.access$findOccurrences(KotlinMarkOccurrences.kt:48)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences$selectionChanged$1.invoke(KotlinMarkOccurrences.kt:71)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences$selectionChanged$1.invoke(KotlinMarkOccurrences.kt:48)
+	at org.jetbrains.kotlin.core.model.KotlinModelUtilsKt$runJob$job$1.run(kotlinModelUtils.kt:89)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:24:22.066
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:24:38.204
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:24:51.833
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:25:41.433
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:26:06.421
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:29:02.210
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:29:17.346
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:29:34.187
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:29:53.309
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:37:38.953
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:41:50.421
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:41:56.343
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 21:41:59.258
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:35:29.443
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:35:39.300
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:36:48.263
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:36:55.264
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:37:12.171
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:37:28.544
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:37:43.523
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:37:51.042
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:37:59.759
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:38:03.762
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:38:51.355
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:39:01.024
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:39:16.416
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:39:18.183
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:39:18.184
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:39:19.939
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:39:21.990
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:40:30.880
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:40:39.347
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:40:49.609
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:40:59.941
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:41:03.943
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:41:13.502
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:42:40.906
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-15 22:46:05.642
+!MESSAGE Could not check for update (Could not obtain update site)
+!SESSION 2020-04-15 22:46:14.590 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/Users/chaeyoon/Documents/GitHub/Kotlin_Study/ -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-15 22:46:18.724
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com|127.0.0.1:21300|*.127.0.0.1:21300 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-04-15 22:46:19.836
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-15 22:46:19.837
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@565bf1bb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3638a852,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2020-04-15 22:50:23.253 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-15 22:50:34.631
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com|127.0.0.1:21300|*.127.0.0.1:21300 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-04-15 22:50:35.294
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-15 22:50:35.294
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cbc0224,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fc9e73d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
