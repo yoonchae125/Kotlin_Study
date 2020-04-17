@@ -1,9 +1,0 @@
-package _02
-
-fun main(args:Array<String>){
-	val person = Person("Bob",false)
-	
-	person.name = "Gildong"
-	println(person.name)
-	println(getWarmth(Color.ORANGE)+"d")
-}

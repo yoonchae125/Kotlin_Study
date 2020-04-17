@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>practice</name>
-	<comment>practice</comment>
+	<name>Practice</name>
+	<comment>Practice</comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -24,7 +24,7 @@
 		<link>
 			<name>kotlin_bin</name>
 			<type>2</type>
-			<locationURI>org.jetbrains.kotlin.core.filesystem:/practice/kotlin_bin</locationURI>
+			<locationURI>org.jetbrains.kotlin.core.filesystem:/Practice/kotlin_bin</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
