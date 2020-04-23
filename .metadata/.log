@@ -3479,3 +3479,6 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.jetbrains.kotlin.core 2 0 2020-04-23 21:28:11.261
 !MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-23 22:17:55.256
+!MESSAGE Could not check for update (Could not obtain update site)
