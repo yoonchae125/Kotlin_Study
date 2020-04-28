@@ -6,3 +6,8 @@ class User constructor(_nickname: String){ // 파라미터가 하나만 있는 �
 		nickname = _nickname
 	}
 }
+fun main(args:Array<String>){
+	println("12.345-6.A".split("\\.|-".toRegex()))
+
+	println("12.345-6.A".split(".", "-"))
+}

@@ -3482,3 +3482,1111 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.jetbrains.kotlin.core 2 0 2020-04-23 22:17:55.256
 !MESSAGE Could not check for update (Could not obtain update site)
+!SESSION 2020-04-24 10:22:33.856 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-24 10:22:55.750
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com|127.0.0.1:21300|*.127.0.0.1:21300 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-04-24 10:22:56.301
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-24 10:22:56.301
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1be15455,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ff4d61b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2020-04-27 14:33:35.240 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-27 14:33:51.873
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com|127.0.0.1:21300|*.127.0.0.1:21300 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-04-27 14:33:52.384
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-27 14:33:52.384
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58338338,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56e589e5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-04-27 16:07:16.430
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-04-27 19:37:42.992
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:06:06.604
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 4 0 2020-04-27 20:06:08.109
+!MESSAGE Unexpected Exception
+!STACK 0
+org.jetbrains.kotlin.util.KotlinFrontEndException: Exception while analyzing expression at (5,18) in /Users/chaeyoon/Documents/GitHub/Kotlin_Study/Practice/src/_04/Clickable.kt
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.logOrThrowException(ExpressionTypingVisitorDispatcher.java:251)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.lambda$getTypeInfo$0(ExpressionTypingVisitorDispatcher.java:222)
+	at org.jetbrains.kotlin.util.PerformanceCounter.time(PerformanceCounter.kt:101)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.getTypeInfo(ExpressionTypingVisitorDispatcher.java:162)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.getTypeInfo(ExpressionTypingVisitorDispatcher.java:133)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.getTypeInfo(ExpressionTypingVisitorDispatcher.java:145)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingServices.getBodyExpressionType(ExpressionTypingServices.java:231)
+	at org.jetbrains.kotlin.resolve.DescriptorResolver.lambda$inferReturnTypeFromExpressionBody$4(DescriptorResolver.java:1217)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.types.DeferredType.getDelegate(DeferredType.java:107)
+	at org.jetbrains.kotlin.resolve.BodyResolver.computeDeferredType(BodyResolver.java:1004)
+	at org.jetbrains.kotlin.resolve.BodyResolver.resolveFunctionBody(BodyResolver.java:921)
+	at org.jetbrains.kotlin.resolve.BodyResolver.resolveFunctionBodies(BodyResolver.java:909)
+	at org.jetbrains.kotlin.resolve.BodyResolver.resolveBehaviorDeclarationBodies(BodyResolver.java:124)
+	at org.jetbrains.kotlin.resolve.BodyResolver.resolveBodies(BodyResolver.java:243)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations(LazyTopDownAnalyzer.kt:225)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations$default(LazyTopDownAnalyzer.kt:60)
+	at org.jetbrains.kotlin.core.resolve.EclipseAnalyzerFacadeForJVM.analyzeKotlin(EclipseAnalyzerFacadeForJVM.kt:223)
+	at org.jetbrains.kotlin.core.resolve.EclipseAnalyzerFacadeForJVM.analyzeSources(EclipseAnalyzerFacadeForJVM.kt:84)
+	at org.jetbrains.kotlin.core.model.KotlinAnalysisFileCache.resolve(KotlinAnalysisFileCache.kt:46)
+	at org.jetbrains.kotlin.core.model.KotlinAnalysisFileCache.getAnalysisResult(KotlinAnalysisFileCache.kt:32)
+	at org.jetbrains.kotlin.core.resolve.KotlinAnalyzer.analyzeFile(KotlinAnalyzer.kt:27)
+	at org.jetbrains.kotlin.core.resolve.KotlinAnalyzer.analyzeFiles(KotlinAnalyzer.kt:34)
+	at org.jetbrains.kotlin.core.filesystem.KotlinFileStore.openInputStream(KotlinFileStore.kt:59)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:848)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1146)
+	at org.eclipse.jdt.internal.core.search.JavaSearchDocument.getByteContents(JavaSearchDocument.java:50)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:647)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:545)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:1075)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.NullPointerException
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache.access$getCache$p(KotlinBinaryClassCache.kt:27)
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache$Companion.getKotlinBinaryClassOrClassFileContent(KotlinBinaryClassCache.kt:67)
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache$Companion.getKotlinBinaryClassOrClassFileContent$default(KotlinBinaryClassCache.kt:60)
+	at org.jetbrains.kotlin.load.kotlin.VirtualFileFinder.findKotlinClassOrContent(VirtualFileFinder.kt:34)
+	at org.jetbrains.kotlin.load.kotlin.KotlinClassFinderKt.findKotlinClass(KotlinClassFinder.kt:40)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment$binaryClasses$2.invoke(LazyJavaPackageFragment.kt:45)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment$binaryClasses$2.invoke(LazyJavaPackageFragment.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.storage.StorageKt.getValue(storage.kt:42)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment.getBinaryClasses$descriptors_jvm(LazyJavaPackageFragment.kt)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope$kotlinScopes$2.invoke(JvmPackageScope.kt:44)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope$kotlinScopes$2.invoke(JvmPackageScope.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.storage.StorageKt.getValue(storage.kt:42)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope.getKotlinScopes(JvmPackageScope.kt)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope.getClassifierNames(JvmPackageScope.kt:81)
+	at org.jetbrains.kotlin.resolve.scopes.MemberScopeKt.flatMapClassifierNamesOrNull(MemberScope.kt:62)
+	at org.jetbrains.kotlin.resolve.scopes.ChainedMemberScope.getClassifierNames(ChainedMemberScope.kt:46)
+	at org.jetbrains.kotlin.resolve.scopes.AbstractScopeAdapter.getClassifierNames(AbstractScopeAdapter.kt:58)
+	at org.jetbrains.kotlin.resolve.scopes.MemberScopeKt.computeAllNames(MemberScope.kt:59)
+	at org.jetbrains.kotlin.resolve.AllUnderImportScope.computeImportedNames(AllUnderImportScope.kt:52)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportResolver$allNames$2.invoke(LazyImportScope.kt:118)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportResolver$allNames$2.invoke(LazyImportScope.kt:87)
+	at kotlin.SafePublicationLazyImpl.getValue(LazyJVM.kt:107)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportResolver.getAllNames(LazyImportScope.kt)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportResolver.definitelyDoesNotContainName(LazyImportScope.kt:121)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportScope.definitelyDoesNotContainName(LazyImportScope.kt:328)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.mayFitForName(TowerResolver.kt:253)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.createNonLocalLevels(TowerResolver.kt:150)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.access$createNonLocalLevels(TowerResolver.kt:98)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task$nonLocalLevels$2.invoke(TowerResolver.kt:115)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task$nonLocalLevels$2.invoke(TowerResolver.kt:98)
+	at kotlin.UnsafeLazyImpl.getValue(Lazy.kt:81)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.getNonLocalLevels(TowerResolver.kt)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.processImplicitReceiver(TowerResolver.kt:230)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.run(TowerResolver.kt:195)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver.run(TowerResolver.kt:96)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver.runResolve(TowerResolver.kt:83)
+	at org.jetbrains.kotlin.resolve.calls.tower.NewResolutionOldInference.runResolution(NewResolutionOldInference.kt:194)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.doResolveCall(CallResolver.java:688)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.doResolveCallOrGetCachedResults(CallResolver.java:596)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.lambda$computeTasksAndResolveCall$0(CallResolver.java:212)
+	at org.jetbrains.kotlin.util.PerformanceCounter.time(PerformanceCounter.kt:101)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.computeTasksAndResolveCall(CallResolver.java:210)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.computeTasksAndResolveCall(CallResolver.java:198)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.resolveFunctionCall(CallResolver.java:326)
+	at org.jetbrains.kotlin.resolve.calls.CallExpressionResolver.getResolvedCallForFunction(CallExpressionResolver.kt:98)
+	at org.jetbrains.kotlin.resolve.calls.CallExpressionResolver.getCallExpressionTypeInfoWithoutFinalTypeCheck(CallExpressionResolver.kt:220)
+	at org.jetbrains.kotlin.resolve.calls.CallExpressionResolver.getCallExpressionTypeInfo(CallExpressionResolver.kt:197)
+	at org.jetbrains.kotlin.types.expressions.BasicExpressionTypingVisitor.visitCallExpression(BasicExpressionTypingVisitor.java:727)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.visitCallExpression(ExpressionTypingVisitorDispatcher.java:386)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher$ForDeclarations.visitCallExpression(ExpressionTypingVisitorDispatcher.java:45)
+	at org.jetbrains.kotlin.psi.KtCallExpression.accept(KtCallExpression.java:35)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.lambda$getTypeInfo$0(ExpressionTypingVisitorDispatcher.java:173)
+	... 33 more
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-27 20:06:08.116
+!MESSAGE The Java indexing could not index /Practice/kotlin_bin/_04/RichButton.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.jetbrains.kotlin.util.KotlinFrontEndException: Exception while analyzing expression at (5,18) in /Users/chaeyoon/Documents/GitHub/Kotlin_Study/Practice/src/_04/Clickable.kt
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.logOrThrowException(ExpressionTypingVisitorDispatcher.java:251)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.lambda$getTypeInfo$0(ExpressionTypingVisitorDispatcher.java:222)
+	at org.jetbrains.kotlin.util.PerformanceCounter.time(PerformanceCounter.kt:101)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.getTypeInfo(ExpressionTypingVisitorDispatcher.java:162)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.getTypeInfo(ExpressionTypingVisitorDispatcher.java:133)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.getTypeInfo(ExpressionTypingVisitorDispatcher.java:145)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingServices.getBodyExpressionType(ExpressionTypingServices.java:231)
+	at org.jetbrains.kotlin.resolve.DescriptorResolver.lambda$inferReturnTypeFromExpressionBody$4(DescriptorResolver.java:1217)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.types.DeferredType.getDelegate(DeferredType.java:107)
+	at org.jetbrains.kotlin.resolve.BodyResolver.computeDeferredType(BodyResolver.java:1004)
+	at org.jetbrains.kotlin.resolve.BodyResolver.resolveFunctionBody(BodyResolver.java:921)
+	at org.jetbrains.kotlin.resolve.BodyResolver.resolveFunctionBodies(BodyResolver.java:909)
+	at org.jetbrains.kotlin.resolve.BodyResolver.resolveBehaviorDeclarationBodies(BodyResolver.java:124)
+	at org.jetbrains.kotlin.resolve.BodyResolver.resolveBodies(BodyResolver.java:243)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations(LazyTopDownAnalyzer.kt:225)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations$default(LazyTopDownAnalyzer.kt:60)
+	at org.jetbrains.kotlin.core.resolve.EclipseAnalyzerFacadeForJVM.analyzeKotlin(EclipseAnalyzerFacadeForJVM.kt:223)
+	at org.jetbrains.kotlin.core.resolve.EclipseAnalyzerFacadeForJVM.analyzeSources(EclipseAnalyzerFacadeForJVM.kt:84)
+	at org.jetbrains.kotlin.core.model.KotlinAnalysisFileCache.resolve(KotlinAnalysisFileCache.kt:46)
+	at org.jetbrains.kotlin.core.model.KotlinAnalysisFileCache.getAnalysisResult(KotlinAnalysisFileCache.kt:32)
+	at org.jetbrains.kotlin.core.resolve.KotlinAnalyzer.analyzeFile(KotlinAnalyzer.kt:27)
+	at org.jetbrains.kotlin.core.resolve.KotlinAnalyzer.analyzeFiles(KotlinAnalyzer.kt:34)
+	at org.jetbrains.kotlin.core.filesystem.KotlinFileStore.openInputStream(KotlinFileStore.kt:59)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:848)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1146)
+	at org.eclipse.jdt.internal.core.search.JavaSearchDocument.getByteContents(JavaSearchDocument.java:50)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:647)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:545)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:1075)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.NullPointerException
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache.access$getCache$p(KotlinBinaryClassCache.kt:27)
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache$Companion.getKotlinBinaryClassOrClassFileContent(KotlinBinaryClassCache.kt:67)
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache$Companion.getKotlinBinaryClassOrClassFileContent$default(KotlinBinaryClassCache.kt:60)
+	at org.jetbrains.kotlin.load.kotlin.VirtualFileFinder.findKotlinClassOrContent(VirtualFileFinder.kt:34)
+	at org.jetbrains.kotlin.load.kotlin.KotlinClassFinderKt.findKotlinClass(KotlinClassFinder.kt:40)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment$binaryClasses$2.invoke(LazyJavaPackageFragment.kt:45)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment$binaryClasses$2.invoke(LazyJavaPackageFragment.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.storage.StorageKt.getValue(storage.kt:42)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment.getBinaryClasses$descriptors_jvm(LazyJavaPackageFragment.kt)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope$kotlinScopes$2.invoke(JvmPackageScope.kt:44)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope$kotlinScopes$2.invoke(JvmPackageScope.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.storage.StorageKt.getValue(storage.kt:42)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope.getKotlinScopes(JvmPackageScope.kt)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope.getClassifierNames(JvmPackageScope.kt:81)
+	at org.jetbrains.kotlin.resolve.scopes.MemberScopeKt.flatMapClassifierNamesOrNull(MemberScope.kt:62)
+	at org.jetbrains.kotlin.resolve.scopes.ChainedMemberScope.getClassifierNames(ChainedMemberScope.kt:46)
+	at org.jetbrains.kotlin.resolve.scopes.AbstractScopeAdapter.getClassifierNames(AbstractScopeAdapter.kt:58)
+	at org.jetbrains.kotlin.resolve.scopes.MemberScopeKt.computeAllNames(MemberScope.kt:59)
+	at org.jetbrains.kotlin.resolve.AllUnderImportScope.computeImportedNames(AllUnderImportScope.kt:52)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportResolver$allNames$2.invoke(LazyImportScope.kt:118)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportResolver$allNames$2.invoke(LazyImportScope.kt:87)
+	at kotlin.SafePublicationLazyImpl.getValue(LazyJVM.kt:107)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportResolver.getAllNames(LazyImportScope.kt)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportResolver.definitelyDoesNotContainName(LazyImportScope.kt:121)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportScope.definitelyDoesNotContainName(LazyImportScope.kt:328)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.mayFitForName(TowerResolver.kt:253)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.createNonLocalLevels(TowerResolver.kt:150)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.access$createNonLocalLevels(TowerResolver.kt:98)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task$nonLocalLevels$2.invoke(TowerResolver.kt:115)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task$nonLocalLevels$2.invoke(TowerResolver.kt:98)
+	at kotlin.UnsafeLazyImpl.getValue(Lazy.kt:81)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.getNonLocalLevels(TowerResolver.kt)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.processImplicitReceiver(TowerResolver.kt:230)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver$Task.run(TowerResolver.kt:195)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver.run(TowerResolver.kt:96)
+	at org.jetbrains.kotlin.resolve.calls.tower.TowerResolver.runResolve(TowerResolver.kt:83)
+	at org.jetbrains.kotlin.resolve.calls.tower.NewResolutionOldInference.runResolution(NewResolutionOldInference.kt:194)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.doResolveCall(CallResolver.java:688)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.doResolveCallOrGetCachedResults(CallResolver.java:596)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.lambda$computeTasksAndResolveCall$0(CallResolver.java:212)
+	at org.jetbrains.kotlin.util.PerformanceCounter.time(PerformanceCounter.kt:101)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.computeTasksAndResolveCall(CallResolver.java:210)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.computeTasksAndResolveCall(CallResolver.java:198)
+	at org.jetbrains.kotlin.resolve.calls.CallResolver.resolveFunctionCall(CallResolver.java:326)
+	at org.jetbrains.kotlin.resolve.calls.CallExpressionResolver.getResolvedCallForFunction(CallExpressionResolver.kt:98)
+	at org.jetbrains.kotlin.resolve.calls.CallExpressionResolver.getCallExpressionTypeInfoWithoutFinalTypeCheck(CallExpressionResolver.kt:220)
+	at org.jetbrains.kotlin.resolve.calls.CallExpressionResolver.getCallExpressionTypeInfo(CallExpressionResolver.kt:197)
+	at org.jetbrains.kotlin.types.expressions.BasicExpressionTypingVisitor.visitCallExpression(BasicExpressionTypingVisitor.java:727)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.visitCallExpression(ExpressionTypingVisitorDispatcher.java:386)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher$ForDeclarations.visitCallExpression(ExpressionTypingVisitorDispatcher.java:45)
+	at org.jetbrains.kotlin.psi.KtCallExpression.accept(KtCallExpression.java:35)
+	at org.jetbrains.kotlin.types.expressions.ExpressionTypingVisitorDispatcher.lambda$getTypeInfo$0(ExpressionTypingVisitorDispatcher.java:173)
+	... 33 more
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-27 20:06:08.132
+!MESSAGE The Java indexing could not index /Practice/kotlin_bin/first.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+java.lang.NullPointerException
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache.access$getCache$p(KotlinBinaryClassCache.kt:27)
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache$Companion.getKotlinBinaryClassOrClassFileContent(KotlinBinaryClassCache.kt:67)
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache$Companion.getKotlinBinaryClassOrClassFileContent$default(KotlinBinaryClassCache.kt:60)
+	at org.jetbrains.kotlin.load.kotlin.VirtualFileFinder.findKotlinClassOrContent(VirtualFileFinder.kt:34)
+	at org.jetbrains.kotlin.load.kotlin.KotlinClassFinderKt.findKotlinClass(KotlinClassFinder.kt:40)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment$binaryClasses$2.invoke(LazyJavaPackageFragment.kt:45)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment$binaryClasses$2.invoke(LazyJavaPackageFragment.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.storage.StorageKt.getValue(storage.kt:42)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment.getBinaryClasses$descriptors_jvm(LazyJavaPackageFragment.kt)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope$kotlinScopes$2.invoke(JvmPackageScope.kt:44)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope$kotlinScopes$2.invoke(JvmPackageScope.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.storage.StorageKt.getValue(storage.kt:42)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope.getKotlinScopes(JvmPackageScope.kt)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope.getContributedClassifier(JvmPackageScope.kt:55)
+	at org.jetbrains.kotlin.resolve.scopes.ChainedMemberScope.getContributedClassifier(ChainedMemberScope.kt:33)
+	at org.jetbrains.kotlin.resolve.scopes.AbstractScopeAdapter.getContributedClassifier(AbstractScopeAdapter.kt:44)
+	at org.jetbrains.kotlin.resolve.LazyExplicitImportScope.getContributedClassifier(LazyExplicitImportScope.kt:42)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportScope$getClassifier$1.invoke(LazyImportScope.kt:242)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportScope$getClassifier$1.invoke(LazyImportScope.kt:207)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager.compute(LockBasedStorageManager.java:244)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportScope.getClassifier(LazyImportScope.kt:237)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportScope.getContributedClassifier(LazyImportScope.kt:233)
+	at org.jetbrains.kotlin.resolve.scopes.ResolutionScope$DefaultImpls.getContributedClassifierIncludeDeprecated(ResolutionScope.kt:40)
+	at org.jetbrains.kotlin.resolve.scopes.HierarchicalScope$DefaultImpls.getContributedClassifierIncludeDeprecated(Scopes.kt)
+	at org.jetbrains.kotlin.resolve.scopes.ImportingScope$DefaultImpls.getContributedClassifierIncludeDeprecated(Scopes.kt)
+	at org.jetbrains.kotlin.resolve.lazy.LazyImportScope.getContributedClassifierIncludeDeprecated(LazyImportScope.kt:207)
+	at org.jetbrains.kotlin.resolve.scopes.utils.ScopeUtilsKt.findFirstClassifierWithDeprecationStatus(ScopeUtils.kt:118)
+	at org.jetbrains.kotlin.resolve.QualifiedExpressionResolver.findClassifierAndReportDeprecationIfNeeded(QualifiedExpressionResolver.kt:78)
+	at org.jetbrains.kotlin.resolve.QualifiedExpressionResolver.resolveDescriptorForType(QualifiedExpressionResolver.kt:102)
+	at org.jetbrains.kotlin.resolve.TypeResolver.resolveDescriptorForType(TypeResolver.kt:932)
+	at org.jetbrains.kotlin.resolve.TypeResolver$resolveTypeElement$1.visitUserType(TypeResolver.kt:247)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitUserType(KtVisitorVoid.java:923)
+	at org.jetbrains.kotlin.psi.KtVisitorVoid.visitUserType(KtVisitorVoid.java:21)
+	at org.jetbrains.kotlin.psi.KtUserType.accept(KtUserType.java:42)
+	at org.jetbrains.kotlin.psi.KtElementImplStub.accept(KtElementImplStub.java:59)
+	at org.jetbrains.kotlin.resolve.TypeResolver.resolveTypeElement(TypeResolver.kt:245)
+	at org.jetbrains.kotlin.resolve.TypeResolver.resolvePossiblyBareType(TypeResolver.kt:124)
+	at org.jetbrains.kotlin.resolve.TypeResolver.resolveType(TypeResolver.kt:114)
+	at org.jetbrains.kotlin.resolve.TypeResolver.resolveType(TypeResolver.kt:85)
+	at org.jetbrains.kotlin.resolve.FunctionDescriptorResolver.resolveValueParameters(FunctionDescriptorResolver.kt:419)
+	at org.jetbrains.kotlin.resolve.FunctionDescriptorResolver.createValueParameterDescriptors(FunctionDescriptorResolver.kt:301)
+	at org.jetbrains.kotlin.resolve.FunctionDescriptorResolver.initializeFunctionDescriptorAndExplicitReturnType(FunctionDescriptorResolver.kt:195)
+	at org.jetbrains.kotlin.resolve.FunctionDescriptorResolver.resolveFunctionDescriptor(FunctionDescriptorResolver.kt:128)
+	at org.jetbrains.kotlin.resolve.FunctionDescriptorResolver.resolveFunctionDescriptor(FunctionDescriptorResolver.kt:95)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.getDeclaredFunctions(AbstractLazyMemberScope.kt:115)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.access$getDeclaredFunctions(AbstractLazyMemberScope.kt:36)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$declaredFunctionDescriptors$1.invoke(AbstractLazyMemberScope.kt:56)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$declaredFunctionDescriptors$1.invoke(AbstractLazyMemberScope.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:512)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunctionToNotNull.invoke(LockBasedStorageManager.java:587)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.doGetFunctions(AbstractLazyMemberScope.kt:96)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.access$doGetFunctions(AbstractLazyMemberScope.kt:36)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$functionDescriptors$1.invoke(AbstractLazyMemberScope.kt:49)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$functionDescriptors$1.invoke(AbstractLazyMemberScope.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:512)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunctionToNotNull.invoke(LockBasedStorageManager.java:587)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.getContributedFunctions(AbstractLazyMemberScope.kt:92)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver$resolveToDescriptor$1.visitNamedFunction(LazyDeclarationResolver.kt:125)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver$resolveToDescriptor$1.visitNamedFunction(LazyDeclarationResolver.kt:94)
+	at org.jetbrains.kotlin.psi.KtNamedFunction.accept(KtNamedFunction.java:50)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver.resolveToDescriptor(LazyDeclarationResolver.kt:94)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver.resolveToDescriptor(LazyDeclarationResolver.kt:91)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.createFunctionDescriptors(LazyTopDownAnalyzer.kt:282)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations(LazyTopDownAnalyzer.kt:204)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations$default(LazyTopDownAnalyzer.kt:60)
+	at org.jetbrains.kotlin.core.resolve.EclipseAnalyzerFacadeForJVM.analyzeKotlin(EclipseAnalyzerFacadeForJVM.kt:223)
+	at org.jetbrains.kotlin.core.resolve.EclipseAnalyzerFacadeForJVM.analyzeSources(EclipseAnalyzerFacadeForJVM.kt:84)
+	at org.jetbrains.kotlin.core.model.KotlinAnalysisFileCache.resolve(KotlinAnalysisFileCache.kt:46)
+	at org.jetbrains.kotlin.core.model.KotlinAnalysisFileCache.getAnalysisResult(KotlinAnalysisFileCache.kt:32)
+	at org.jetbrains.kotlin.core.resolve.KotlinAnalyzer.analyzeFile(KotlinAnalyzer.kt:27)
+	at org.jetbrains.kotlin.core.resolve.KotlinAnalyzer.analyzeFiles(KotlinAnalyzer.kt:34)
+	at org.jetbrains.kotlin.core.filesystem.KotlinFileStore.openInputStream(KotlinFileStore.kt:59)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:848)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1146)
+	at org.eclipse.jdt.internal.core.search.JavaSearchDocument.getByteContents(JavaSearchDocument.java:50)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:647)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:545)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:1075)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-27 20:06:08.144
+!MESSAGE The Java indexing could not index /Practice/kotlin_bin/_04/Button$ButtonState.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+java.lang.NullPointerException
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache.access$getCache$p(KotlinBinaryClassCache.kt:27)
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache$Companion.getKotlinBinaryClassOrClassFileContent(KotlinBinaryClassCache.kt:67)
+	at org.jetbrains.kotlin.load.kotlin.KotlinBinaryClassCache$Companion.getKotlinBinaryClassOrClassFileContent$default(KotlinBinaryClassCache.kt:60)
+	at org.jetbrains.kotlin.load.kotlin.VirtualFileFinder.findKotlinClassOrContent(VirtualFileFinder.kt:34)
+	at org.jetbrains.kotlin.load.kotlin.KotlinClassFinderKt.findKotlinClass(KotlinClassFinder.kt:40)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment$binaryClasses$2.invoke(LazyJavaPackageFragment.kt:45)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment$binaryClasses$2.invoke(LazyJavaPackageFragment.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.storage.StorageKt.getValue(storage.kt:42)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaPackageFragment.getBinaryClasses$descriptors_jvm(LazyJavaPackageFragment.kt)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope$kotlinScopes$2.invoke(JvmPackageScope.kt:44)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope$kotlinScopes$2.invoke(JvmPackageScope.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.storage.StorageKt.getValue(storage.kt:42)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope.getKotlinScopes(JvmPackageScope.kt)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.JvmPackageScope.getContributedClassifier(JvmPackageScope.kt:55)
+	at org.jetbrains.kotlin.resolve.scopes.ChainedMemberScope.getContributedClassifier(ChainedMemberScope.kt:33)
+	at org.jetbrains.kotlin.resolve.scopes.AbstractScopeAdapter.getContributedClassifier(AbstractScopeAdapter.kt:44)
+	at org.jetbrains.kotlin.builtins.KotlinBuiltIns$3.invoke(KotlinBuiltIns.java:111)
+	at org.jetbrains.kotlin.builtins.KotlinBuiltIns$3.invoke(KotlinBuiltIns.java:108)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:512)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunctionToNotNull.invoke(LockBasedStorageManager.java:587)
+	at org.jetbrains.kotlin.builtins.KotlinBuiltIns.getBuiltInClassByName(KotlinBuiltIns.java:362)
+	at org.jetbrains.kotlin.builtins.KotlinBuiltIns.getAny(KotlinBuiltIns.java:367)
+	at org.jetbrains.kotlin.builtins.KotlinBuiltIns.getAnyType(KotlinBuiltIns.java:642)
+	at org.jetbrains.kotlin.resolve.DescriptorResolver.getDefaultSupertype(DescriptorResolver.java:190)
+	at org.jetbrains.kotlin.resolve.DescriptorResolver.resolveSupertypes(DescriptorResolver.java:160)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassDescriptor.computeSupertypes(LazyClassDescriptor.java:721)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassDescriptor$LazyClassTypeConstructor.computeSupertypes(LazyClassDescriptor.java:624)
+	at org.jetbrains.kotlin.types.AbstractTypeConstructor$supertypes$1.invoke(AbstractTypeConstructor.kt:80)
+	at org.jetbrains.kotlin.types.AbstractTypeConstructor$supertypes$1.invoke(AbstractTypeConstructor.kt:26)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValueWithPostCompute.invoke(LockBasedStorageManager.java:428)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValueWithPostCompute.invoke(LockBasedStorageManager.java:459)
+	at org.jetbrains.kotlin.types.AbstractTypeConstructor.getSupertypes(AbstractTypeConstructor.kt:27)
+	at org.jetbrains.kotlin.types.AbstractTypeConstructor.getSupertypes(AbstractTypeConstructor.kt:26)
+	at org.jetbrains.kotlin.resolve.descriptorUtil.DescriptorUtilsKt.getSuperClassNotAny(DescriptorUtils.kt:141)
+	at org.jetbrains.kotlin.resolve.descriptorUtil.DescriptorUtilsKt.getAllSuperclassesWithoutAny(DescriptorUtils.kt:356)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.ClassResolutionScopesSupport$inheritanceScopeWithoutMe$1.invoke(ClassResolutionScopesSupport.kt:52)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.ClassResolutionScopesSupport$inheritanceScopeWithoutMe$1.invoke(ClassResolutionScopesSupport.kt:31)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.ClassResolutionScopesSupport$inheritanceScopeWithMe$1.invoke(ClassResolutionScopesSupport.kt:58)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.ClassResolutionScopesSupport$inheritanceScopeWithMe$1.invoke(ClassResolutionScopesSupport.kt:31)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.ClassResolutionScopesSupport$scopeForMemberDeclarationResolution$1.invoke(ClassResolutionScopesSupport.kt:67)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.ClassResolutionScopesSupport$scopeForMemberDeclarationResolution$1.invoke(ClassResolutionScopesSupport.kt:31)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedLazyValue.invoke(LockBasedStorageManager.java:355)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$LockBasedNotNullLazyValue.invoke(LockBasedStorageManager.java:474)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassDescriptor.getScopeForMemberDeclarationResolution(LazyClassDescriptor.java:367)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassMemberScope.getScopeForMemberDeclarationResolution(LazyClassMemberScope.kt:146)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.getDeclaredFunctions(AbstractLazyMemberScope.kt:117)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.access$getDeclaredFunctions(AbstractLazyMemberScope.kt:36)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$declaredFunctionDescriptors$1.invoke(AbstractLazyMemberScope.kt:56)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$declaredFunctionDescriptors$1.invoke(AbstractLazyMemberScope.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:512)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunctionToNotNull.invoke(LockBasedStorageManager.java:587)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.doGetFunctions(AbstractLazyMemberScope.kt:96)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.access$doGetFunctions(AbstractLazyMemberScope.kt:36)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$functionDescriptors$1.invoke(AbstractLazyMemberScope.kt:49)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope$functionDescriptors$1.invoke(AbstractLazyMemberScope.kt:36)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:512)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunctionToNotNull.invoke(LockBasedStorageManager.java:587)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.AbstractLazyMemberScope.getContributedFunctions(AbstractLazyMemberScope.kt:92)
+	at org.jetbrains.kotlin.resolve.lazy.descriptors.LazyClassMemberScope.getContributedFunctions(LazyClassMemberScope.kt:200)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver$resolveToDescriptor$1.visitNamedFunction(LazyDeclarationResolver.kt:125)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver$resolveToDescriptor$1.visitNamedFunction(LazyDeclarationResolver.kt:94)
+	at org.jetbrains.kotlin.psi.KtNamedFunction.accept(KtNamedFunction.java:50)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver.resolveToDescriptor(LazyDeclarationResolver.kt:94)
+	at org.jetbrains.kotlin.resolve.lazy.LazyDeclarationResolver.resolveToDescriptor(LazyDeclarationResolver.kt:91)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.createFunctionDescriptors(LazyTopDownAnalyzer.kt:282)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations(LazyTopDownAnalyzer.kt:204)
+	at org.jetbrains.kotlin.resolve.LazyTopDownAnalyzer.analyzeDeclarations$default(LazyTopDownAnalyzer.kt:60)
+	at org.jetbrains.kotlin.core.resolve.EclipseAnalyzerFacadeForJVM.analyzeKotlin(EclipseAnalyzerFacadeForJVM.kt:223)
+	at org.jetbrains.kotlin.core.resolve.EclipseAnalyzerFacadeForJVM.analyzeSources(EclipseAnalyzerFacadeForJVM.kt:84)
+	at org.jetbrains.kotlin.core.model.KotlinAnalysisFileCache.resolve(KotlinAnalysisFileCache.kt:46)
+	at org.jetbrains.kotlin.core.model.KotlinAnalysisFileCache.getAnalysisResult(KotlinAnalysisFileCache.kt:32)
+	at org.jetbrains.kotlin.core.resolve.KotlinAnalyzer.analyzeFile(KotlinAnalyzer.kt:27)
+	at org.jetbrains.kotlin.core.resolve.KotlinAnalyzer.analyzeFiles(KotlinAnalyzer.kt:34)
+	at org.jetbrains.kotlin.core.filesystem.KotlinFileStore.openInputStream(KotlinFileStore.kt:59)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:848)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1146)
+	at org.eclipse.jdt.internal.core.search.JavaSearchDocument.getByteContents(JavaSearchDocument.java:50)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:647)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:545)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:1075)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:06:10.609
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:06:10.611
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:06:10.611
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:06:10.611
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:36:01.122
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:36:08.804
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:36:12.431
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:36:12.433
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:36:12.433
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:36:12.433
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-27 20:37:02.787
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-04-28 00:24:32.491
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-04-28 04:01:09.190
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-04-28 07:37:48.251
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-04-28 10:00:03.207
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+!SESSION 2020-04-28 14:27:14.789 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/chaeyoon/Documents/GitHub/Kotlin_Study -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-28 14:27:18.630
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com|127.0.0.1:21300|*.127.0.0.1:21300 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-04-28 14:27:19.562
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-28 14:27:19.562
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@627f678d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3fb54673,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:27:44.388
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 4 0 2020-04-28 14:27:52.967
+!MESSAGE Unexpected Exception
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Practice/kotlin_bin/_04/User.class)[275]: java.lang.Exception: A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:184)
+	at org.jetbrains.kotlin.core.asJava.LightClassFile.createIfNotExists(LightClassFile.java:25)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:151)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:144)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses(KotlinLightClassGeneration.kt:50)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses$default(KotlinLightClassGeneration.kt:44)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilderElement.build(KotlinBuilderElement.kt:50)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilder.build(KotlinBuilder.kt:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2020-04-28 14:27:52.968
+!MESSAGE A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+!STACK 0
+java.lang.Exception: A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:184)
+	at org.jetbrains.kotlin.core.asJava.LightClassFile.createIfNotExists(LightClassFile.java:25)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:151)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:144)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses(KotlinLightClassGeneration.kt:50)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses$default(KotlinLightClassGeneration.kt:44)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilderElement.build(KotlinBuilderElement.kt:50)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilder.build(KotlinBuilder.kt:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2020-04-28 14:27:52.970
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Practice/kotlin_bin/_04/User.class)[275]: java.lang.Exception: A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:184)
+	at org.jetbrains.kotlin.core.asJava.LightClassFile.createIfNotExists(LightClassFile.java:25)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:151)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:144)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses(KotlinLightClassGeneration.kt:50)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses$default(KotlinLightClassGeneration.kt:44)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilderElement.build(KotlinBuilderElement.kt:50)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilder.build(KotlinBuilder.kt:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2020-04-28 14:27:52.970
+!MESSAGE A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+!STACK 0
+java.lang.Exception: A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:184)
+	at org.jetbrains.kotlin.core.asJava.LightClassFile.createIfNotExists(LightClassFile.java:25)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:151)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:144)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses(KotlinLightClassGeneration.kt:50)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses$default(KotlinLightClassGeneration.kt:44)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilderElement.build(KotlinBuilderElement.kt:50)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilder.build(KotlinBuilder.kt:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2020-04-28 14:27:52.970
+!MESSAGE A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+!STACK 0
+java.lang.Exception: A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:184)
+	at org.jetbrains.kotlin.core.asJava.LightClassFile.createIfNotExists(LightClassFile.java:25)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:151)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:144)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses(KotlinLightClassGeneration.kt:50)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses$default(KotlinLightClassGeneration.kt:44)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilderElement.build(KotlinBuilderElement.kt:50)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilder.build(KotlinBuilder.kt:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2020-04-28 14:27:52.977
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.jetbrains.kotlin.ui 4 75 2020-04-28 14:27:52.977
+!MESSAGE Errors running builder 'KotlinBuilder' on project 'Practice'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Practice/kotlin_bin/_04/User.class)[275]: java.lang.Exception: A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:184)
+	at org.jetbrains.kotlin.core.asJava.LightClassFile.createIfNotExists(LightClassFile.java:25)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:151)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:144)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses(KotlinLightClassGeneration.kt:50)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses$default(KotlinLightClassGeneration.kt:44)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilderElement.build(KotlinBuilderElement.kt:50)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilder.build(KotlinBuilder.kt:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 275 2020-04-28 14:27:52.977
+!MESSAGE A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+!STACK 0
+java.lang.Exception: A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:184)
+	at org.jetbrains.kotlin.core.asJava.LightClassFile.createIfNotExists(LightClassFile.java:25)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:151)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:144)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses(KotlinLightClassGeneration.kt:50)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses$default(KotlinLightClassGeneration.kt:44)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilderElement.build(KotlinBuilderElement.kt:50)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilder.build(KotlinBuilder.kt:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2020-04-28 14:27:52.977
+!MESSAGE A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+!STACK 0
+java.lang.Exception: A resource exists with a different case: '/Practice/kotlin_bin/_04/User.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:110)
+	at org.eclipse.core.internal.resources.File.create(File.java:184)
+	at org.jetbrains.kotlin.core.asJava.LightClassFile.createIfNotExists(LightClassFile.java:25)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:151)
+	at org.jetbrains.kotlin.core.filesystem.KotlinLightClassManager.updateLightClasses(KotlinLightClassManager.java:144)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses(KotlinLightClassGeneration.kt:50)
+	at org.jetbrains.kotlin.core.asJava.KotlinLightClassGeneration.updateLightClasses$default(KotlinLightClassGeneration.kt:44)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilderElement.build(KotlinBuilderElement.kt:50)
+	at org.jetbrains.kotlin.ui.builder.KotlinBuilder.build(KotlinBuilder.kt:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:28:04.325
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:29:32.077
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:30:19.645
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:32:52.015
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:34:11.900
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:34:29.259
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:35:26.509
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:35:36.155
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:35:47.103
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:37:00.140
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:37:05.603
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:37:41.002
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:38:12.541
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:38:20.557
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:45:29.244
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:45:43.764
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:53:14.270
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-28 14:53:28.786
+!MESSAGE Could not check for update (Could not obtain update site)
