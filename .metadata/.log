@@ -5108,3 +5108,6 @@ Caused by: java.net.SocketException: Connection reset
 
 !ENTRY org.jetbrains.kotlin.core 2 0 2020-04-30 23:52:09.804
 !MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-04-30 23:58:20.793
+!MESSAGE Could not check for update (Could not obtain update site)

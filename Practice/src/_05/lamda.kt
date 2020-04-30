@@ -34,8 +34,8 @@ fun main(args:Array<String>){
 	printProblemCounts(responses)
 	run(::salute)
 
-	val action = {person:Person,message:String -> sendEmail(person,message)}
-	val nextAction = ::sendEmail
+//	val action = {person:Person,message:String -> sendEmail(person,message)}
+//	val nextAction = ::sendEmail
 }
 fun salute() = println("Salute!")
 fun printMessageWithPrefix(messages:Collection<String>, prefix: String){
