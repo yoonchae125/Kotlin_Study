@@ -5,7 +5,115 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-04-29T13:33:07Z</updated>
+  <updated>2020-04-30T11:57:54Z</updated>
+  <entry>
+    <title>Updates to Spring Versions</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/04/30/updates-to-spring-versions" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2020-04-24:4042</id>
+    <updated>2020-04-30T11:57:54Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;The Spring team has decided to change the versioning scheme for both &lt;a href="#release-train-version-changes"&gt;release trains&lt;/a&gt; and &lt;a href="#project-module-version-changes"&gt;project modules&lt;/a&gt;. These changes will be coming in the next release train and minor releases for each project. In fact, the changes are already present in &lt;a href="https://spring.io/blog/2020/04/17/spring-cloud-2020-0-0-m1-released"&gt;Spring Cloud 2020.0.0-M1&lt;/a&gt;. Maven and Gradle do not provide the exact same version ordering, but we are working with the Gradle team to ensure the Spring scheme ends up sorted in the same way with both tools.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id="release-train-version-changes" class="sect0"&gt;&lt;a class="anchor" href="#release-train-version-changes"&gt;&lt;/a&gt;Release Train Version Changes&lt;/h1&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Spring has been using alphabetically ordered, themed  &lt;a href="https://spring.io/blog/2013/02/13/spring-data-release-train-arora-available"&gt;release train&lt;/a&gt; versions since 2013. Release trains contain a group of project versions that work well together but make no guarantees about the underlying libraries’ backward compatibility when upgrading to the next release train.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Since then, the &lt;a href="https://github.com/spring-cloud/spring-cloud-release/issues/168"&gt;community has raised some concerns about the version names&lt;/a&gt;, and we have listened. A primary concern is that the scheme could be challenging for non-native English speakers to sort alphabetically. Additionally, themed names could be challenging to remember version names. Finally, some of the theme names could be challenging to spell.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;To solve these concerns, the Spring team has decided to switch to &lt;a href="https://calver.org/"&gt;Calendar Versioning (calver)&lt;/a&gt;, using a scheme of &lt;code&gt;YYYY.MINOR.MICRO[-MODIFIER]&lt;/code&gt;, such that:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;YYYY&lt;/code&gt; is the full year.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;MINOR&lt;/code&gt; is an incremented, 0-based number for each year.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;MICRO&lt;/code&gt; is the patch version.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;MODIFIER&lt;/code&gt; is an optional modifier such that &lt;code&gt;&amp;lt;COUNT&amp;gt;&lt;/code&gt; is an incremented 1-based number:&lt;/p&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For milestones, we will use &lt;code&gt;M&amp;lt;COUNT&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For release candidates, we will use &lt;code&gt;RC&amp;lt;COUNT&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For snapshots, we will use &lt;code&gt;-SNAPSHOT&lt;/code&gt;. Note that &lt;code&gt;.BUILD&lt;/code&gt; that was present in our previous scheme has been removed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For releases, there will be no modifier.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;An example of versions in order would be &lt;code&gt;2020.0.0-M1&lt;/code&gt;, &lt;code&gt;2020.0.0-M2&lt;/code&gt;, &lt;code&gt;2020.0.0-RC1&lt;/code&gt;, &lt;code&gt;2020.0.0-SNAPSHOT&lt;/code&gt;, &lt;code&gt;2020.0.0&lt;/code&gt;, &lt;code&gt;2020.0.1-SNAPSHOT&lt;/code&gt;, &lt;code&gt;2020.0.1&lt;/code&gt;, &lt;code&gt;2020.1.0-SNAPSHOT&lt;/code&gt;, &lt;code&gt;2020.1.0-M1&lt;/code&gt;, &lt;code&gt;2020.1.0-M2&lt;/code&gt;, and so on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This solves the problem of concerns around implications of backward compatibility, eases sorting for non-native english speakers, is easier to remember than name based releases, and eliminates challenges of spelling. Like many other projects that use calver, the Spring team may also keep referring to each train with a code name that follows the old conventions for their versions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id="project-module-version-changes" class="sect0"&gt;&lt;a class="anchor" href="#project-module-version-changes"&gt;&lt;/a&gt;Project Module Version Changes&lt;/h1&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The Spring team has been using the same versions that are compatible with &lt;a href="https://www.osgi.org/wp-content/uploads/SemanticVersioning.pdf"&gt;OSGi Semantic Versioning&lt;/a&gt; since &lt;a href="https://spring.io/blog/2008/12/05/first-spring-framework-3-0-milestone-released"&gt;Spring Framework 3.0.0.M1&lt;/a&gt; back in 2008. We felt that, since we were revisiting the release train versioning scheme, it would be good to revisit our project module versions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;While it is convenient to have OSGi compatible versions, there is no need to do so for the Maven version to be compatible with OSGi, since the bundle metadata can specify an OSGi-compatible version in it. We decided the new versioning scheme would follow the grammar defined in &lt;a href="https://semver.org/"&gt;Semantic Versioning&lt;/a&gt; to help with parsing the version number. We also wanted our versions to be familiar to Java developers. Given the above information, we decided on switching to a version scheme of &lt;code&gt;MAJOR.MINOR.PATCH[-MODIFIER]&lt;/code&gt;, such that:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;MAJOR&lt;/code&gt;, if incremented, may involve a significant amount of work to upgrade.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;MINOR&lt;/code&gt;, if incremented, should involve little to no work to upgrade.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;PATCH&lt;/code&gt;, if incremented, should involve no work.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;MODIFIER&lt;/code&gt; is an optional modifier such that &lt;code&gt;&amp;lt;COUNT&amp;gt;&lt;/code&gt; is an incremented 1-based number:&lt;/p&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For milestones, we will use &lt;code&gt;M&amp;lt;COUNT&amp;gt;&lt;/code&gt; .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For release candidates, we will use &lt;code&gt;RC&amp;lt;COUNT&amp;gt;&lt;/code&gt; .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For snapshots, we will use &lt;code&gt;-SNAPSHOT&lt;/code&gt;. Note that &lt;code&gt;.BUILD&lt;/code&gt; that was present in our previous scheme has been removed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For releases, there will be no modifier.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;An example of versions in order would be &lt;code&gt;2.3.0-M1&lt;/code&gt;, &lt;code&gt;2.3.0-M2&lt;/code&gt;, &lt;code&gt;2.3.0-RC1&lt;/code&gt;, &lt;code&gt;2.3.0-RC2&lt;/code&gt;, &lt;code&gt;2.3.0-SNAPSHOT&lt;/code&gt;, &lt;code&gt;2.3.0&lt;/code&gt;, &lt;code&gt;2.3.0&lt;/code&gt;, &lt;code&gt;2.3.1-SNAPSHOT&lt;/code&gt;, &lt;code&gt;2.3.1&lt;/code&gt;, &lt;code&gt;2.4.0-SNAPSHOT&lt;/code&gt;, and so on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id="conclusion" class="sect0"&gt;&lt;a class="anchor" href="#conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We want to thank you, the community, for your feedback, and we hope these changes will improve your experience with Spring!&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tips: The Wavefront Observability Platform</title>
     <link rel="alternate" href="https://spring.io/blog/2020/04/29/spring-tips-the-wavefront-observability-platform" />
@@ -1733,26 +1841,6 @@ mvn -Pgraal clean package
   &lt;li&gt;The opensource team at VMWare interviewed me, if you&amp;rsquo;re interested. &lt;a href="https://blogs.vmware.com/opensource/2020/04/07/spring-development-josh-long-interview/"&gt;Spring Development: An Interview with Josh Long&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Want to develop Spring Boot apps and secure them with OpenID Connect &amp;amp; OAuth2? Check out &lt;a href="https://www.youtube.com/watch?v=8VJNjMD9TG8&amp;feature=youtu.be"&gt;this video&lt;/a&gt; for a nice introduction!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Microsoft’s Kushagra Thapar on Spring Data Cosmosdb</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/04/10/a-bootiful-podcast-microsoft-s-kushagra-thapar-on-spring-data-cosmosdb" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2020-04-10:4028</id>
-    <updated>2020-04-10T02:31:39Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this episode, we talk to Kushagra Thapar who is a senior software engineer at Microsoft working on the world-class, and world-wide Azure CosmosDB. &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://www.linkedin.com/in/kushagrathapar"&gt;Kushagra&amp;rsquo;s LinkedIn&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://start.spring.io"&gt;The Spring Initializr&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://azure.microsoft.com/en-us/services/cosmos-db/"&gt;Azure CosmosDB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://azure.microsoft.com/en-us/services/spring-cloud/"&gt;Azure Spring Cloud&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/microsoft/spring-data-cosmosdb"&gt;Spring Data CosmosDB&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;iframe title="Microsoft's Kushagra Thapar on Spring Data CosmosDB" src="https://www.podbean.com/media/player/waujw-d8c5d0?from=usersite&amp;vjs=1&amp;skin=1&amp;fonts=Helvetica&amp;auto=0&amp;download=1" height="315" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player"&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
