@@ -5111,3 +5111,329 @@ Caused by: java.net.SocketException: Connection reset
 
 !ENTRY org.jetbrains.kotlin.core 2 0 2020-04-30 23:58:20.793
 !MESSAGE Could not check for update (Could not obtain update site)
+!SESSION 2020-05-01 08:44:45.190 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-05-01 08:44:54.002
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com|127.0.0.1:21300|*.127.0.0.1:21300 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-05-01 08:44:54.528
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-01 08:44:54.528
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@517d68b8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58b03882,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:49:27.742
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:53:11.412
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:53:11.414
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:53:55.308
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:54:30.662
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:54:31.753
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:56:55.428
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:56:57.521
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:57:14.292
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:58:32.453
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:58:44.128
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 08:58:48.973
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 09:21:01.829
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 11:29:39.980
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 11:30:09.535
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 11:30:13.588
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 11:30:20.778
+!MESSAGE Could not check for update (Could not obtain update site)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-05-01 12:05:59.304
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-05-01 15:08:42.827
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-05-01 17:38:40.498
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:324)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:267)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:262)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1652)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.net.SocketException: Broken pipe
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:421)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:355)
+		... 25 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:324)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:937)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:450)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1409)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1022)
+	... 21 more
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2020-05-01 17:52:27.607
+!MESSAGE Could not check for update (Could not obtain update site)
+!SESSION 2020-05-01 17:52:33.144 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/Users/chaeyoon/Documents/GitHub/Kotlin_Study/ -product org.eclipse.epp.package.jee.product -keyring /Users/chaeyoon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-05-01 17:52:38.450
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com|127.0.0.1:21300|*.127.0.0.1:21300 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-05-01 17:52:39.756
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-01 17:52:39.756
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1aa7d66e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5cc85ffc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jetbrains.kotlin.ui 4 2 2020-05-01 17:52:48.352
+!MESSAGE Problems occurred when invoking code from plug-in: "org.jetbrains.kotlin.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.search2.internal.ui.InternalSearchUI.addQueryListener(InternalSearchUI.java:292)
+	at org.eclipse.search.ui.NewSearchUI.addQueryListener(NewSearchUI.java:204)
+	at org.eclipse.search.internal.ui.text.SearchResultUpdater.<init>(SearchResultUpdater.java:37)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.getSearchResult(FileSearchQuery.java:357)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.run(FileSearchQuery.java:252)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.searchTextOccurrences(KotlinQueryParticipant.kt:208)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.access$searchTextOccurrences(KotlinQueryParticipant.kt:81)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant$search$1.run(KotlinQueryParticipant.kt:102)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.search(KotlinQueryParticipant.kt:83)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.runCompositeSearch(KotlinQueryParticipant.kt:150)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.access$runCompositeSearch(KotlinQueryParticipant.kt:81)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant$search$1.run(KotlinQueryParticipant.kt:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.search(KotlinQueryParticipant.kt:83)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences.findOccurrences(KotlinMarkOccurrences.kt:94)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences.access$findOccurrences(KotlinMarkOccurrences.kt:48)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences$selectionChanged$1.invoke(KotlinMarkOccurrences.kt:71)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences$selectionChanged$1.invoke(KotlinMarkOccurrences.kt:48)
+	at org.jetbrains.kotlin.core.model.KotlinModelUtilsKt$runJob$job$1.run(kotlinModelUtils.kt:89)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jetbrains.kotlin.core 4 0 2020-05-01 17:52:48.355
+!MESSAGE Unexpected Exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.search2.internal.ui.InternalSearchUI.addQueryListener(InternalSearchUI.java:292)
+	at org.eclipse.search.ui.NewSearchUI.addQueryListener(NewSearchUI.java:204)
+	at org.eclipse.search.internal.ui.text.SearchResultUpdater.<init>(SearchResultUpdater.java:37)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.getSearchResult(FileSearchQuery.java:357)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.run(FileSearchQuery.java:252)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.searchTextOccurrences(KotlinQueryParticipant.kt:208)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.access$searchTextOccurrences(KotlinQueryParticipant.kt:81)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant$search$1.run(KotlinQueryParticipant.kt:102)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.search(KotlinQueryParticipant.kt:83)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.runCompositeSearch(KotlinQueryParticipant.kt:150)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.access$runCompositeSearch(KotlinQueryParticipant.kt:81)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant$search$1.run(KotlinQueryParticipant.kt:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.jetbrains.kotlin.ui.search.KotlinQueryParticipant.search(KotlinQueryParticipant.kt:83)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences.findOccurrences(KotlinMarkOccurrences.kt:94)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences.access$findOccurrences(KotlinMarkOccurrences.kt:48)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences$selectionChanged$1.invoke(KotlinMarkOccurrences.kt:71)
+	at org.jetbrains.kotlin.ui.editors.occurrences.KotlinMarkOccurrences$selectionChanged$1.invoke(KotlinMarkOccurrences.kt:48)
+	at org.jetbrains.kotlin.core.model.KotlinModelUtilsKt$runJob$job$1.run(kotlinModelUtils.kt:89)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
