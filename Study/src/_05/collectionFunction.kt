@@ -1,5 +1,7 @@
 package _05
 
+import java.lang.StringBuilder
+
 data class Person(val name: String, val age: Int)
 
 fun main(args: Array<String>) {
@@ -51,7 +53,40 @@ fun main(args: Array<String>) {
     println(listOf(1, 2, 3, 4).asSequence()
         .map { it * it }.find { it > 3 })
 
-    val naturalNumbers = generateSequence(0) { it +1 }
+    val naturalNumbers = generateSequence(0) { it + 1 }
     val numbersTo100 = naturalNumbers.takeWhile { it <= 100 }
     println(numbersTo100.sum())
+
+    println(alphabet())
+}
+
+//fun alphabet(): String {
+//    val result = StringBuilder()
+//    for (letter in 'A'..'Z') {
+//        result.append(letter)
+//    }
+//    result.append("\nNow I know the alphabet!")
+//    return result.toString()
+//}
+//fun alphabet(): String {
+//    val result = StringBuilder()
+//    return with(result) {
+//        for (letter in 'A'..'Z') {
+//            append(letter)
+//        }
+//        append("\nNow I know the alphabet!")
+//        this.toString()
+//    }
+//}
+//fun alphabet() = StringBuilder().apply {
+//    for (letter in 'A'..'Z') {
+//        append(letter)
+//    }
+//    append("\nNow I know the alphabet!")
+//}.toString()
+fun alphabet() = buildString {
+    for (letter in 'A'..'Z'){
+        append(letter)
+    }
+    append("\nNow I know the alphabet!")
 }
