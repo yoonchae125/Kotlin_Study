@@ -125,3 +125,9 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/macos,kotlin,eclipse
+
+RxJavaStudy/.idea/codeStyles/Project.xml
+
+RxJavaStudy/.idea/codeStyles/codeStyleConfig.xml
+
+RxJavaStudy/.idea/

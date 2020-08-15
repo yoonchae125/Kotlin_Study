@@ -34,4 +34,9 @@ fun main(args: Array<String>) {
     val strings = listOf("abc", "def")
     println(strings.flatMap { it.toList() })
     println(strings.map { it.toList() })
+
+    val yoon = Array(2){}
+    println(yoon?.get(0))
+    val asc = Array(5) { i -> (i * i).toString() }
+    asc.forEach { println(it) }
 }
