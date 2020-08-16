@@ -1,10 +1,12 @@
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
+import io.reactivex.rxjava3.observables.ConnectableObservable
 import io.reactivex.rxjava3.observers.DisposableSingleObserver
 import java.util.concurrent.TimeUnit
 
 class Sample {
     fun example() {
+        // Consumer
         Single.just(true)
             .subscribe({ result ->
                 // onSuccess()
@@ -25,7 +27,7 @@ class Sample {
     }
     fun subscribe(){
         Single.just(true)
-            .subscribe(){ result ->
+            .subscribe{ result ->
                 println(result)
             }
 
@@ -41,27 +43,5 @@ class Sample {
             .subscribe { result ->
 
         }
-    }
-    fun b(){
-        val observable = Observable.interval(1, TimeUnit.SECONDS)
-            .publish()
-
-        observable.subscribe() // 1, 2, 3, 4 ...
-
-        observable.connect()
-
-        Thread.sleep(3000)
-
-        observable.subscribe() // 4, 5, ...
-    }
-    fun refCount(){
-        val observable = Observable.interval(1, TimeUnit.SECONDS)
-            .publish().refCount()
-
-        observable.subscribe() // 1, 2, 3, 4 ...
-
-        Thread.sleep(3000)
-
-        observable.subscribe() // 4, 5, ...
     }
 }
