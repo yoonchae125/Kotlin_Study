@@ -69,6 +69,7 @@ class MainActivity : AppCompatActivity() {
         val url1 = "https://raw.githubusercontent.com/Charlezz/RxJavaStudy/master/Sample/first.txt"
         val url2 = "https://raw.githubusercontent.com/Charlezz/RxJavaStudy/master/Sample/second.txt"
         val client = OkHttpClient()
+        
         val request1 = Request.Builder().url(url1).build()
         val request2 = Request.Builder().url(url2).build()
 
