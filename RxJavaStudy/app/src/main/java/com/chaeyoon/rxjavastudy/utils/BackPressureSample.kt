@@ -1,8 +1,8 @@
 package com.chaeyoon.rxjavastudy.utils
 
 import android.util.Log
-import io.reactivex.rxjava3.core.Flowable
-import io.reactivex.rxjava3.schedulers.Schedulers
+import io.reactivex.Flowable
+import io.reactivex.schedulers.Schedulers
 
 // sample, debounce, buffer
 
