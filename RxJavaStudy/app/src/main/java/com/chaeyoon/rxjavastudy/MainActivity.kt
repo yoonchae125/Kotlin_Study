@@ -10,14 +10,13 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import io.reactivex.Observable
-import io.reactivex.Scheduler
-import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers.mainThread
-import io.reactivex.internal.operators.flowable.FlowableBlockingSubscribe.subscribe
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_main.*
 import okhttp3.*
 import java.io.IOException
+import java.math.BigInteger
 import java.util.concurrent.TimeUnit
 
 class MainActivity : AppCompatActivity() {
@@ -26,15 +25,30 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val source = Observable.create<CharSequence> {emitter->
-            et.addTextChangedListener(object :TextWatcher{
+        val factorials = io.reactivex.rxjava3.core.Observable
+            .range(2, 100)
+            .scan(BigInteger.ONE, { big, cur ->
+                big.multiply(BigInteger.valueOf(cur.toLong()))
+            })
+
+        factorials.subscribe { Log.d("codbs", it.toString()) }
+
+        val source = Observable.create<CharSequence> { emitter ->
+            et.addTextChangedListener(object : TextWatcher {
                 override fun afterTextChanged(s: Editable?) {
                 }
-                override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+
+                override fun beforeTextChanged(
+                    s: CharSequence?,
+                    start: Int,
+                    count: Int,
+                    after: Int
+                ) {
                 }
+
                 override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
 
-                    s?.let{
+                    s?.let {
                         emitter.onNext(it)
 //                        tv_hello.text = ""
 //                        val dan = s.toString().toInt()
@@ -63,13 +77,13 @@ class MainActivity : AppCompatActivity() {
             .map {
                 " RX!"
             }
-            .subscribe{
+            .subscribe {
                 tv_hello.text = it
             }
         val url1 = "https://raw.githubusercontent.com/Charlezz/RxJavaStudy/master/Sample/first.txt"
         val url2 = "https://raw.githubusercontent.com/Charlezz/RxJavaStudy/master/Sample/second.txt"
         val client = OkHttpClient()
-        
+
         val request1 = Request.Builder().url(url1).build()
         val request2 = Request.Builder().url(url2).build()
 
@@ -78,12 +92,12 @@ class MainActivity : AppCompatActivity() {
                 client.newCall(request1).enqueue(object : Callback {
 
                     override fun onFailure(call: Call, e: IOException) {
-                        Log.d("",e?.message)
+                        Log.d("", e?.message)
                     }
 
                     override fun onResponse(call: Call, response: Response) {
 
-                        Log.d("codbs",response?.body?.string())
+                        Log.d("codbs", response?.body?.string())
                     }
                 })
             }
@@ -93,12 +107,12 @@ class MainActivity : AppCompatActivity() {
             client.newCall(request2).enqueue(object : Callback {
 
                 override fun onFailure(call: Call, e: IOException) {
-                    Log.d("",e?.message)
+                    Log.d("", e?.message)
                 }
 
                 override fun onResponse(call: Call, response: Response) {
 
-                    Log.d("codbs",response?.body?.string())
+                    Log.d("codbs", response?.body?.string())
                 }
             })
         }
@@ -109,10 +123,11 @@ class MainActivity : AppCompatActivity() {
         button3.setOnClickListener {
             Observable.concat(src1, src2)
                 .subscribe {
-                    Log.d("codbs",it)
+                    Log.d("codbs", it)
                 }
         }
     }
+
     fun get(url: String): String? {
         val client = OkHttpClient()
         val request = Request.Builder()

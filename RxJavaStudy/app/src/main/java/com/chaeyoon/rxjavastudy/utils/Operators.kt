@@ -1,8 +1,10 @@
 package com.chaeyoon.rxjavastudy.utils
 
+import android.util.Log
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.functions.BiFunction
+import java.math.BigInteger
 import java.util.concurrent.TimeUnit
 
 fun kotlinOperator() {
@@ -74,17 +76,26 @@ fun rxJavaOperators() {
         Single.just(listOf(1, 1, 1)),
         Single.just(listOf(2, 2))
     ).subscribe {
-       // 1, 2, 2, 1, 1
+        // 1, 2, 2, 1, 1
     }
     Single.zip<Boolean, Int, String>(
         Single.just(true),
         Single.just(1),
-        BiFunction{ first, second ->
+        BiFunction { first, second ->
             ""
         }
     ).subscribe({
 
-    },{
+    }, {
 
     })
+
+    val factorials = Observable
+        .range(2, 100)
+        .scan(BigInteger.ONE, { big, cur ->
+            big.multiply(BigInteger.valueOf(cur.toLong()))
+        })
+        .doOnNext {
+            Log.d("codbs", it.toString())
+        }
 }
