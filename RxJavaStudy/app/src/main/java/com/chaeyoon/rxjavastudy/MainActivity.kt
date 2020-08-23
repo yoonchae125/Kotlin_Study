@@ -1,6 +1,7 @@
 package com.chaeyoon.rxjavastudy
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextUtils
@@ -9,10 +10,9 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import io.reactivex.Observable
-import io.reactivex.Single
-import io.reactivex.android.schedulers.AndroidSchedulers.mainThread
-import io.reactivex.schedulers.Schedulers
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.core.Observable
+import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_main.*
 import okhttp3.*
 import java.io.IOException
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
         }
         source.debounce(3000L, TimeUnit.MILLISECONDS)
             .filter { !TextUtils.isEmpty(it) }
-            .observeOn(mainThread()) //Toast must be running on UI Thread
+            .observeOn(AndroidSchedulers.mainThread()) //Toast must be running on UI Thread
             .subscribe {
                 Toast.makeText(this, "searching => $it", Toast.LENGTH_SHORT).show()
             }
@@ -125,6 +125,15 @@ class MainActivity : AppCompatActivity() {
                 .subscribe {
                     Log.d("codbs", it)
                 }
+        }
+
+        page.setOnClickListener {
+            val intent = Intent(this, Page1Activity::class.java)
+            startActivity(intent)
+        }
+        retrofitTest.setOnClickListener{
+            val intent = Intent(this, RetrofitTestActivity::class.java)
+            startActivity(intent)
         }
     }
 
